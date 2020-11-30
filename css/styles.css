@@ -4,6 +4,65 @@
     box-sizing: border-box;
 }
 
+body {
+    color:white
+}
+
+/* GENERAL */
+
+ul {
+    list-style: none;
+}
+
+
+/* NAVBAR STYLE */
+
+.navbar {
+    background-image: url(../images/dotstars.png); 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    padding-left: 20px;
+}
+
+/* HEADER STYLE */
+
+.main-header {
+    background-image: url(../images/dotstars.png);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.urban-logo img {
+   width: 50%;
+    transform: translateX(50%);
+
+}
+
+.urban-logo {
+    position: relative;
+
+}
+
+
+.layover-slice {
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 
 
 
