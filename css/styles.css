@@ -112,7 +112,26 @@ ul {
     transform: translate(-50%);
 }
 
+/* HERO STYLES  */
 
+.hero {
+    margin-top: 5px;
+    display: flex;
+}
+
+.hero .hero-img {
+    
+    flex-basis: 25%;
+    margin-right: 5px;
+}
+
+.hero .hero-img img {
+    max-width: 100%;
+}
+
+.hero .hero-img:last-child {
+    margin-right: 0;
+}
 
 
 
