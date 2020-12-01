@@ -29,6 +29,10 @@ ul {
     padding-bottom: 20px;
 }
 
+.m-btm10 {
+    margin-bottom: 10px;
+}
+
 
 /* btn style */
 
@@ -274,6 +278,20 @@ ul {
     font-weight: 700;
     margin-left: 200px;
     padding-top: 100px;
+}
+
+.team {
+  
+    display: flex;
+}
+
+.team .worker {
+    flex-basis: 25%;
+}
+
+.team .worker img {
+    width: 100%;
+    
 }
 
 
