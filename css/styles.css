@@ -15,6 +15,20 @@ ul {
     list-style: none;
 }
 
+/* UTILITIES  */
+
+.txt-upp {
+    text-transform: uppercase;
+}
+
+.p-btm10 {
+    padding-bottom: 10px;
+}
+
+.p-btm20 {
+    padding-bottom: 20px;
+}
+
 
 /* btn style */
 
@@ -136,7 +150,10 @@ ul {
 /* HELLO STYLES  */ 
 .hello {
     height: 300px;
-    background: #F7F7F2;
+    /* background: #F7F7F2; */
+    background-image: url(../images/h3-testimonials-bckgrnd.jpg);
+    background-position: left;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +169,7 @@ ul {
 .hello-quotes .marks {
     margin-top: 50px;
     color: #B7903c;
-    font-size: 150px;
+    font-size: 100px;
     font-family: sans-serif;
     padding-bottom: -20px;
     line-height: 40px;
@@ -170,7 +187,70 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
     color: #d2401e;
+    padding-bottom: 10px;
 }
+
+.hello-quotes .dots i {
+    font-size: 10px;
+    color: #EBEBDE;
+}
+
+.hello-quotes .dots i:first-child {
+    color: #B7903c;
+}
+
+/* PIZZA SPECIAL STYLES */
+
+.pizza-specials {
+    color:black;
+    
+    display: flex;
+    height: 600px;
+}
+
+.special {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special.left {
+    background-image: url(../images/h1-img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+        /* special right */
+
+.special-menu {
+    width: 60%;
+}
+
+.special-menu h2,
+.special-menu h3 {
+    color: #2d2d2d;
+}
+
+.special-menu p {
+    color: #CDCDCD;
+}
+
+.special .combo p {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.special-menu h2 {
+    font-size: 30px;
+}
+
+.special-menu .combo h3 span {
+    color: #d2401e;
+}
+
 
 
 
