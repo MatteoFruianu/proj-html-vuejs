@@ -29,8 +29,8 @@ ul {
     padding-bottom: 20px;
 }
 
-.m-btm10 {
-    margin-bottom: 10px;
+.m-btm5 {
+    margin-bottom: 5px;
 }
 
 
@@ -280,6 +280,8 @@ ul {
     padding-top: 100px;
 }
 
+/* TEAM STYLES */
+
 .team {
   
     display: flex;
@@ -293,6 +295,29 @@ ul {
     width: 100%;
     
 }
+
+/* CLIENTS STYLES */
+
+.clients {
+    background: #f7f7f2;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients ul.client-logos {
+    display: flex;
+}
+
+.clients ul.client-logos li img{
+   width: 200px;
+}
+
+
+
+
+
 
 
 
