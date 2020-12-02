@@ -33,6 +33,10 @@ ul {
     margin-bottom: 5px;
 }
 
+.m-btm10 {
+    margin-bottom: 10px;
+}
+
 
 /* btn style */
 
@@ -40,10 +44,11 @@ ul {
     color: white;
     background-color: #d2401e;
     font-family: 'Roboto Condensed', sans-serif;
-
+    text-transform: uppercase;
     border: none;
     padding: 10px 20px;
 }
+
 
 
 /* NAVBAR STYLE */
@@ -63,7 +68,7 @@ ul {
 
 .navbar ul li {
     
-    padding-left: 30px;
+    padding: 15px;
     text-transform: uppercase;
     font-size: 14px;
    
@@ -157,7 +162,7 @@ ul {
     /* background: #F7F7F2; */
     background-image: url(../images/h3-testimonials-bckgrnd.jpg);
     background-position: left;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -445,18 +450,135 @@ ul {
   
 }
 
-
-
 .deals .comic {
     background-image: url(../images/h3-img-5a.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
+}
+
+
+/* BOOKING SECTION STYLES  */
+
+
+.booking {
+    height: 200px;
+    background-image: url(../images/h3-background-img-3.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.booking ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking ul li {
+    padding: 0 40px;
+}
+
+
+.booking ul li.prep {
+    padding: 0
+}
+
+.booking ul li input,
+.booking ul li button {
+ width: 140px;
+ padding: 10px;;
+}
+
+.booking ul li input {
+    border: 1px solid black;
+}
+
+.booking ul li input::placeholder {
+    font-size: 10px;
+    color: #b2b2b2;
+}
+
+
+/* FOOTER STYLES */
+
+.footer {
+    color: black;
+    display: flex;
+    height: 500px;
+}
+
+.footer-contacts,
+.footer-img {
+    flex-basis: 50%;
+}
+
+.footer-contacts {
+    background-image: url(../images/dotstars.png);
+    color: #b2b2b2;
+    display: flex;
+    padding: 40px;
+}
+
+.footer-contacts div {
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contacts .addresses p {
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+
+
+.footer-contacts .working-hours p {
+    margin-bottom: 10px;
+}
+
+.working-hours .red {
+    color: #d2401e;
+   
+}
+
+.footer-contacts .working-hours .social {
+    padding: 0;
+    
+}
+
+
+
+.footer-contacts .crew {
+    font-size: 20px;
+}
+
+
+.footer .footer-contacts .addresses h4,
+.footer .working-hours h4,
+.footer .working-hours h5 {
+    color: #B7903c;
+    text-transform: uppercase;
+
+}
+
+.crew h4 {
+    color: white;
 }
 
 
 
 
 
+
+
+.footer-img {
+    background-image: url(../images/footer-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
