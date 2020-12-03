@@ -588,7 +588,10 @@ ul {
 
 .booking ul li input {
     border: 1px solid black;
+   
 }
+
+
 
 .booking ul li input::placeholder {
     font-size: 10px;
