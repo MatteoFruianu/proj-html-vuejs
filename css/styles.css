@@ -592,10 +592,13 @@ ul {
 }
 
 
-
 .booking ul li input::placeholder {
     font-size: 10px;
     color: #b2b2b2;
+}
+
+.booking ul li input:focus {
+    outline: none;
 }
 
 

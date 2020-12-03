@@ -30,7 +30,7 @@
     
                 <div class="nav-center">
                     <ul>
-                        <li> <img src="./images/svg/svg-0.svg" alt="moustaceh icon">  Home</li>
+                        <li> <img src="./images/svg/svg-0.svg" alt="moustache icon">  Home</li>
                         <li>Pages</li>
                         <li>Menu</li>
                         <li class="logo-header">
@@ -141,6 +141,7 @@
                 own pizza <br>
                 we won't <br>
                 judge! <br>
+                
             </div>
 
         </section>
@@ -348,24 +349,17 @@
             <div class="pizza-slice"><img src="./images/svg/svg-4.svg" alt=""></div>
 
             <div class="footer-contacts">
-                <div class="addresses">
+                <div  class="addresses">
                     <h4 class="m-btm10 txt-upp">find our restaurants</h4>
-                    <p>1614 E.Bell Rd #104 <br>
-                        Salerno, AZ 85022 <br>
-                        (602)867-1010
+                    
+                    <p v-for="item in addresses">
+                        {{item.street}} <br>
+                        {{item.city}} <br>
+                        {{item.mobile}}
                     </p>
-                    <p>1614 E.Bell Rd #104 <br>
-                        Salerno, AZ 85022 <br>
-                        (602)867-1010
-                    </p>
-                    <p>1614 E.Bell Rd #104 <br>
-                        Salerno, AZ 85022 <br>
-                        (602)867-1010
-                    </p>
-                    <p>1614 E.Bell Rd #104 <br>
-                        Salerno, AZ 85022 <br>
-                        (602)867-1010
-                    </p>
+                   
+
+                    
                    
                 </div>
                 <div class="working-hours">
@@ -400,7 +394,7 @@
                         
                 </div>
                 <div class="crew">
-                    <h4 class="txt-upp">the don peppe crew first and foremost values an authentic, well baked slice of pizza</h4>
+                    <h4 class="txt-upp">{{crewDesc}}</h4>
                 </div>
             </div>
             <div class="footer-img"></div>
